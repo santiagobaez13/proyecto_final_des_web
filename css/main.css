@@ -1,0 +1,104 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+body {
+  background-image: url(/media/assets/fondo.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%; }
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+  color: black;
+  background-color: white; }
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 150px;
+  justify-content: space-around; }
+
+/* === CONTACTO === */
+.section-contacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+  .section-contacto .div-contacto {
+    margin-top: 60px;
+    display: grid; }
+    .section-contacto .div-contacto div {
+      background-color: #df4e4e;
+      padding: 40px;
+      height: 40vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-radius: 10px; }
+      .section-contacto .div-contacto div p {
+        padding: 10px; }
+        .section-contacto .div-contacto div p i {
+          margin-right: 25px;
+          cursor: pointer;
+          font-size: 1.5rem;
+          align-items: center; }
+  .section-contacto .form-contacto section {
+    background-color: #e64444;
+    padding: 40px;
+    border-radius: 10px;
+    width: 90vh; }
+    .section-contacto .form-contacto section form {
+      display: flex;
+      flex-direction: column; }
+      .section-contacto .form-contacto section form h2 {
+        margin-bottom: 30px;
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.5rem; }
+      .section-contacto .form-contacto section form label,
+      .section-contacto .form-contacto section form div {
+        margin: 10px 0px 10px 0px;
+        font-size: 1rem; }
+      .section-contacto .form-contacto section form form input,
+      .section-contacto .form-contacto section form form textarea {
+        border: none;
+        border-radius: 5px;
+        border-bottom: 1px solid black;
+        resize: none; }
+        .section-contacto .form-contacto section form form input:focus,
+        .section-contacto .form-contacto section form form textarea:focus {
+          outline: none; }
+
+.card-body {
+  background-color: #ffe4c2;
+  border-radius: 0%; }
+
+footer {
+  background-color: #fd2929;
+  color: white;
+  margin-top: 60px;
+  padding: 20px;
+  bottom: 0px;
+  font-size: 1.2rem; }
+  footer p {
+    text-align: center; }
+  footer .footer-content {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between; }
+    footer .footer-content .footer-info li {
+      list-style-type: none; }
+      footer .footer-content .footer-info li:first-of-type {
+        margin-bottom: 10px; }
+    footer .footer-content .footer-redes {
+      display: flex; }
+      footer .footer-content .footer-redes li {
+        list-style-type: none; }
+        footer .footer-content .footer-redes li:first-of-type {
+          margin-right: 20px; }
+        footer .footer-content .footer-redes li i {
+          cursor: pointer;
+          font-size: 1.8rem; }
